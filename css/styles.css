@@ -42,10 +42,11 @@ hr {
 /***** CLASS *****/
 
 .topnav {
-  padding: 20px 0;
+  padding: 10px 0;
   overflow: hidden;
   background-color: #FBE8D3;
-  position: static;
+  top: 0;
+  position: fixed;
   width: 100%;
 }
 
@@ -68,13 +69,13 @@ hr {
 .top-container{
   background-color: #FBE8D3;
   position: relative;
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin-top: 68px;
 }
 
 .middle-container{
-  padding: 30px;
+  padding: 60px 0 40px 0;
   margin: 0;
   background-color: #fdfde8;
 }
@@ -86,11 +87,12 @@ hr {
 
 .profile{
   width: 55%;
-  margin: auto;
+  margin: 10px auto 40px auto;
 }
 
 .skills{
   margin: 30px auto;
+  padding-bottom: 20px;
 }
 
 .skill-row{
@@ -120,12 +122,8 @@ hr {
   font-weight: normal;
 }
 
-.profile{
-  margin-bottom: 30px;
-}
-
 .profpic{
-  height: 150px;
+  height: 200px;
 }
 
 .icon{
