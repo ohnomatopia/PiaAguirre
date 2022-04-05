@@ -3,7 +3,6 @@
 body {
   margin: 0;
   color: #283C63;
-  background-color: #FBE8D3;
   font-size: 18px;
   line-height: 2;
   text-align: center;
@@ -11,7 +10,7 @@ body {
 }
 
 h1 {
-  margin: 30px auto 0 auto;
+  margin: 20px auto 20px auto;
   color: #F85F73;
   font-size: 3.5rem;
   font-family: 'Pacifico', cursive;
@@ -32,10 +31,6 @@ h3{
   font-weight: 900;
 }
 
-p{
-  line-height: 2;
-}
-
 hr {
   border-style: none;
   border-top-style: dotted;
@@ -44,19 +39,43 @@ hr {
   width: 10%;
 }
 
-
-
 /***** CLASS *****/
+
+.topnav {
+  padding: 20px 0;
+  overflow: hidden;
+  background-color: #FBE8D3;
+  position: static;
+  width: 100%;
+}
+
+.topnav a {
+  float: right;
+  color: #283C63;
+  margin-right: 30px;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  color: #F85F73;
+  font-weight: 900;
+  font-style: oblique;
+}
 
 .top-container{
   background-color: #FBE8D3;
   position: relative;
-  padding-top: 120px;
+  padding-top: 80px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .middle-container{
   padding: 30px;
-  margin: auto;
+  margin: 0;
   background-color: #fdfde8;
 }
 
@@ -66,7 +85,7 @@ hr {
 }
 
 .profile{
-  width: 50%;
+  width: 55%;
   margin: auto;
 }
 
@@ -98,7 +117,7 @@ hr {
 
 .emphasis{
   color: #39AEA9;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .profile{
@@ -115,14 +134,20 @@ hr {
 
 .top-cloud{
   position: absolute;
-  top: 50px;
-  right: 300px;
+  top: 70px;
+  right: 280px;
 }
 
 .bottom-cloud{
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
+}
+
+.city{
+  width: 40%;
+  position: relative;
+  margin-top: 10px;
 }
 
 .footer{
